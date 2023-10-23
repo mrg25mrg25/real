@@ -4,11 +4,11 @@
 .mystyle {
    display: flex;
    flex-direction: column;
-   gap: 8px;
+   gap: 2rem;
    padding-top: 5rem;
    padding-bottom: 8rem;
-   padding-left: 5rem;
-   padding-right: 5rem;
+   padding-left: 4rem;
+   padding-right: 4rem;
    margin-top: 3rem;
 } 
 
