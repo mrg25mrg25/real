@@ -5,20 +5,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="./img/no-smoking.png" type="image/x-icon">
     <title>yeah whatever</title>
 </head>
 <body>
 <!--navbar-->
-<div class="nav">
+<div class="nav p-2 flex justify-between bg-gray-700">
     <div class="logo h-10 w-10">
         <img src="./img/cigar.png" alt="logo">
     </div>
 
-    <div id="myDIV" class="buttons">
-        This is a DIV element.
+    <div id="myDIV" class="buttons text-white text-center border rounded
+    sm:flex sm:gap-4 sm:border-none">
+        <a href="">
+            <div class="capitalize text-sm px-3 py-2 font-bold border rounded">
+                cool crunch
+            </div>
+        </a>
+        <a href="">
+            <div class="capitalize text-sm px-3 py-2 font-bold border rounded">
+                variances
+            </div>
+        </a>
+        <a href="">
+            <div class="capitalize text-sm px-3 py-2 font-bold border rounded">
+                swedish pull
+            </div>
+        </a>
     </div>
 
-    <div class="list h-10 w-10">
+    <div class="list h-9 w-9 bg-white p-1 rounded sm:hidden">
         <img src="img/list.png" alt="list"onclick="myFunction()">
     </div>
 </div>
