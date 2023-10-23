@@ -1,8 +1,8 @@
-
-if (new Date().getHours() < 18) {
-    document.getElementById("demo").innerHTML = "Good day!";
-  }
-
+// navbar 
+function myFunction() {
+    var pinkman = document.getElementById("myDIV");
+    pinkman.classList.toggle("mystyle");
+ }
 
 
 
